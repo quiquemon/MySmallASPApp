@@ -95,7 +95,6 @@ if (typeof jQuery === 'undefined') {
   var Alert   = function (el) {
     $(el).on('click', dismiss, this.close)
   }
-
   Alert.VERSION = '3.3.7'
 
   Alert.TRANSITION_DURATION = 150
